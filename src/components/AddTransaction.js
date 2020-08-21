@@ -9,17 +9,17 @@ const AddTransaction = () => {
             <h3>Add New Transaction</h3>
             <form >
                 <div className="form-control">
-                    <lable htmlFor="text"> Text</lable>
+                    <label htmlFor="text"> Text</label>
                     <input type="text"
                         value={text}
                         onChange={(e) => setText(e.target.value)}
                         placeholder="Enter text here . . ." />
                 </div>
                 <div className="form-control">
-                    <lable htmlFor="amount">
+                    <label htmlFor="amount">
                         Amount <br />
                         (negative-expense, positive-income)
-                    </lable>
+                    </label>
                     <input type="number"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
